@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Yuji Boku', serif;
+    /* height: 100%; */
+    justify-content: center;
+}
+
+.infoTextBox{
+    text-align: center;
+}
+
+.infoTextBox h2{
+    font-family: 'Chilanka', cursive;
+}
+
+
+.background{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    display: flex; 
+    align-items: center;
+    opacity: 0.9;
+}
+
+
+.mirrorlesscam img{
+    width: 300px;
+    margin: 20px 20px;
+    
+}
+
+p{
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 24px;
+}
+
+#p1{
+    background-image: url(./images/horses1.jpg);
+}
+
+#p2{
+    background-image: url(./images/horses2.jpg);
+}
+
+#p3{
+    background-image: url(./images/cat.jpg);
+}
+
+#p4{
+    background-image: url(./images/dog1.jpg);
+}
+
+#p5{
+    background-image: url(./images/dog2.JPG);
+}
+
+#ekkrrem{
+    margin: 0px;
+    color: white;
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+.infoTextBox{
+    background-color: black;
+    color: wheat;
+}
+
+.infoTextBox h2{
+    padding: 10px;
+    font-size: 32px;
+}
